@@ -17,5 +17,14 @@ $ outside tody --location "Brooklyn, NY"
 { _: [ 'tody' ], location: 'Brooklyn, NY' }
 ```
 
+#### 5. 运行命令
+建立一些子模块和函数等，避免不必要的加载，是的命令执行更快
+```bash
+$ outside today
+today is sunny
+$ outside foobar
+"foobar" is not a valid command!
+```
+
 
 
