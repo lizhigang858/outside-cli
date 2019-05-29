@@ -26,5 +26,20 @@ $ outside foobar
 "foobar" is not a valid command!
 ```
 
+#### 6. 常用必须的命令
+添加一些常用的选项如，help，version等
+```bash
+$ outside
 
+        outside [command] <options>
+        
+        today ................ show weather for today
+        version .............. show package version
+        help ................. show helpo menu for a command
+$ outside help today
 
+        outside today <options>
+
+        --location, -l ....... the location to use
+
+```
