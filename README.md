@@ -52,3 +52,6 @@ $ outside help today
 ```bash
 $ npm install --save axios ora
 ```
+
+#### 9. 错误和退出码
+程序在出错的时候我们需要返回正确的退出码，这有助于CI工具等真确使用我们的cli

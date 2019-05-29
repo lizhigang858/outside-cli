@@ -1,4 +1,5 @@
 const minimist = require('minimist');
+const error = require('./utils/error');
 
 module.exports = () => {
     //从第二个参数开始解析，因为第一个永远是文件所在路径
@@ -28,7 +29,7 @@ module.exports = () => {
             require('./cmds/forecast')(args);
             break;
         default:
-            console.error(`"${cmd}" is not a valid command!`);
+            error(`"${cmd}" is not a valid command!`, true);
             break;
     }
 };
