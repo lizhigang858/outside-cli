@@ -1,0 +1,13 @@
+{
+  "name": "outside-cli",
+  "version": "0.0.1",
+  "description": "用来学习node cli app的一个工程",
+  "repository": "https://github.com/lizhigang858/outside-cli.git",
+  "license": "MIT",
+  "bin": {
+    "outside": "bin/outside"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
