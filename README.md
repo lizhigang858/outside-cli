@@ -43,3 +43,6 @@ $ outside help today
         --location, -l ....... the location to use
 
 ```
+
+#### 7. 再添加一个命令
+如果我们想添加命令，我们只要再cmds目录中创建相应的处理脚本，然后再index的swich和help文件中加入相应的内容就可以
