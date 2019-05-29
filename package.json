@@ -2,10 +2,27 @@
   "name": "outside-cli",
   "version": "0.0.1",
   "description": "用来学习node cli app的一个工程",
-  "repository": "https://github.com/lizhigang858/outside-cli.git",
   "license": "MIT",
+  "homepage": "https://github.com/lizhigang858/outside-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lizhigang858/outside-cli.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "weather",
+    "forecast",
+    "rain"
+  ],
+  "preferGlobal": true,
   "bin": {
     "outside": "bin/outside"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
   },
   "dependencies": {
     "axios": "^0.18.0",

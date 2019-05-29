@@ -55,3 +55,8 @@ $ npm install --save axios ora
 
 #### 9. 错误和退出码
 程序在出错的时候我们需要返回正确的退出码，这有助于CI工具等真确使用我们的cli
+
+#### 10. 发布到NPM
+如果想打包成为自包含的程序的话，可以使用pkg or nexe等工具
+
+原文地址：https://timber.io/blog/creating-a-real-world-cli-app-with-node/#takeaways-and-conclusion
